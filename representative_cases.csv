@@ -1,0 +1,37 @@
+theme,number,title,score,state,primary_spg
+Gateway / Connectivity,2713,Gateway crashes from unhandled promise rejections without notifying users (Telegram + Web),6,closed,Stability
+Gateway / Connectivity,17134,macOS app launch disconnects active Web UI WebSocket sessions,6,closed,Unclassified
+Gateway / Connectivity,18410,Discord reconnect crash: Attempted to reconnect zombie connection (uncaught),6,closed,Stability
+Channel Integration,19312,[Bug] v2026.2.15 Bundled Plugin Ecosystem Failure - 81% Plugins Affected by workspace:* Dependencies,6,closed,Stability
+Channel Integration,2190,Feature Request: Add Viber as a messaging channel,5,closed,Plasticity
+Channel Integration,3516,[Feature]: Zoom Chat Channel Integration,5,closed,Plasticity
+Installation / Deploy,309,[Feature]: Umbrel App Store presence,7,closed,Plasticity
+Installation / Deploy,28389,Project: Sovereign Crypto CI/CD Pipeline (Forgejo + Woodpecker),7,open,Plasticity
+Installation / Deploy,44101,Docs: container/gateway bind example conflicts with current CLI (`--bind 0.0.0.0` invalid),7,open,Stability
+Crash / Error,36742,[Bug]: Gateway crashes with dual-account Telegram config under systemd,6,open,Stability
+Crash / Error,40156,[Bug]: v2026.3.7's docker-setup doesn't work,5,open,Stability
+Crash / Error,47965,[Bug]: existing-session browser profile causes gateway crash (zlib segfault during MCP handshake),5,open,Stability
+Model / LLM / Provider,35573,[Feature]: Native fal.ai provider support,9,open,Plasticity
+Model / LLM / Provider,11499,[Bug]: OpenClaw Model Retry Implementation,8,closed,Generalization
+Model / LLM / Provider,21897,feat(models): migrate default model from Claude Opus 4.6 to Gemini 3.1 Pro,8,closed,Plasticity
+Session Management,5806,[Bug] Telegram bot stuck in infinite loop sending duplicate messages - session state persists across restarts,4,closed,Stability
+Session Management,7922,Webchat session incorrectly binds to WhatsApp group session key after WhatsApp plugin disabled,4,closed,Stability
+Session Management,12029,Session Amnesia: Orphan detection deletes legitimate user messages,4,closed,Stability
+Tool Use / Plugins,8287,Feature Request: Node-Registered Agent Tools,5,open,Plasticity
+Tool Use / Plugins,43293,[Bug] Kimi k2p5 tool calls silently dropped in Feishu channel (v2026.3.8),5,closed,Stability
+Tool Use / Plugins,47862,"[docs]: sessions_spawn in OpenClaw — Complete Troubleshooting Guide (9 problems and solutions, v2026.3.11)",5,open,Stability
+Memory / Context,41177,Research: Memory in the Age of AI Agents (Issue-198),7,closed,Generalization
+Memory / Context,3170,[Feature]: Add post-retrieval reranking hook for memory search results,5,closed,Plasticity
+Memory / Context,22077,Feature Request: 3-Layer Memory Architecture for Agents,5,closed,Stability
+Security / Auth,12530,[Security][Third-Party] molta: Missing RBAC Enabling Full API Access,9,closed,Unclassified
+Security / Auth,12506,[Feature Request] Unified Security Profile System with Preset Scenario Templates,8,open,Plasticity
+Security / Auth,1796,🔒 Argus Security - Comprehensive 6-Phase Analysis: 512 Findings (8 CRITICAL),7,closed,Plasticity
+UI / UX,6958,[Bug]: TUI loses pre-tool-call text during streaming — reappears after reconnect,5,closed,Unclassified
+UI / UX,8636,[Bug]: OpenAI API not responding in TUI/Web UI despite correct configuration,5,closed,Stability
+UI / UX,11269,[TUI] Chat window auto-scrolls to top during streaming responses,5,closed,Plasticity
+Scheduling / Automation,28584,[RFC] Event-driven cron scheduling: job chaining and reactive triggers,6,open,Plasticity
+Scheduling / Automation,42246,[Feature]: Configurable batching/aggregation of outbound Telegram notifications,6,open,Plasticity
+Scheduling / Automation,48488,Lane queue has no task-level timeout — hung promises permanently block session lanes,6,open,Stability
+Agent Orchestration,44253,Per-agent tools.selfDeny — allow tool inheritance to subagents while denying direct use,6,open,Plasticity
+Agent Orchestration,49509,Feature request: /callon team sessions with master-routed delegation,6,open,Plasticity
+Agent Orchestration,3605,"Sub-agents share browser profile with parent, causing tab conflicts",5,closed,Generalization
