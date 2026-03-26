@@ -1,0 +1,7 @@
+# Third-party dependencies for analysis notebook (analysis.ipynb)
+# fetch_issues.py uses only Python stdlib — no extra deps needed.
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.12
+scikit-learn>=1.2
